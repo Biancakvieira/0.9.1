@@ -1,0 +1,72 @@
+.card {
+   background-color: black; 
+   color: white;
+   position: relative;
+   border-radius: 10px;
+   width: 500px;
+   height: 500px;
+ }
+ 
+  button svg {
+    color: azure;
+    width: 10px;
+    height: 20px;
+  }
+  button:hover svg {
+    transform: scale(1.2);
+    fill: darkorchid;
+  }
+  .amigo {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(31, 48, 48);
+    color: white;
+    width: fit-content;
+    position: relative;
+    padding: 10px;
+
+  }
+  .dono {
+    border-radius: 20px;
+    padding-right: 10px;
+    background-color: rgb(154, 67, 158);
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    position: relative;
+    padding: 10px;
+    
+  }
+  .confok .dono{
+    position: absolute;
+    top: 9px;
+    border-radius: 9px;
+    background-color: rgb(229, 13, 13);
+    color: rgb(237, 231, 231);
+    padding-right: 1px;
+    padding-bottom: 5px;
+    
+  }
+  .confok .amigo{
+    position: absolute;
+    top: 9px;
+    border-radius: 9px;
+    background-color: rgb(229, 13, 13);
+    color: rgb(237, 231, 231);
+    padding-right: 1px;
+    padding-bottom: 5px;
+    
+  }
+
+   .titulo .opcoes {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .titulo {
+    position: relative;
+  }
+  ul {
+    padding: 0;
+  }
