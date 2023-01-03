@@ -65,8 +65,25 @@ ul{
     margin-left: 50%;
     list-style: none;
     text-align: right;
-      
   }
+
+  .dropdown{
+    width: 10px;
+    height: 10px;
+    fill: white;
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    opacity: 0;
+    border: 1px solid rgba(77, 76, 78, 0.329);
+    border-radius: 6px;
+}
+.dono:hover .dropdown {
+    opacity: 5;
+}
+.amigo:hover .dropdown {
+    opacity: 5;
+}
 
    .dono svg{
     width: 9px;
